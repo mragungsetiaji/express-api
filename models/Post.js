@@ -25,4 +25,5 @@ const PostSchema = new mongoose.Schema({
 },
 {timestamps: true});
 
+const collection = "blogPosts";
 module.exports = mongoose.model("Post", PostSchema);

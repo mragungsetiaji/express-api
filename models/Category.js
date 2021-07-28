@@ -10,4 +10,5 @@ const CategorySchema = new mongoose.Schema(
   { timestamps: true }
 );
 
+const collection = "blogCategories";
 module.exports = mongoose.model("Category", CategorySchema);
