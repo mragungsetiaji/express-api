@@ -24,5 +24,5 @@ const UserSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-const collection = "blogUsers";
+const collection = "users"; // global user for all project
 module.exports = mongoose.model("User", UserSchema, collection);
