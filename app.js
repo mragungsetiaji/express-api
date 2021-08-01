@@ -26,6 +26,6 @@ app.use("/api/blog/posts", postRoute);
 app.use("/api/blog/categories", categoryRoute);
 app.use("/api/movie", movieRoute);
 
-app.listen("5000", () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log("Backend is running.");
 });
