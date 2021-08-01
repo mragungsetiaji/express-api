@@ -5,3 +5,4 @@ Tech stack:
 - [Express](http://expressjs.com/)
 - [MongoDB](https://www.mongodb.com/)
 - [Mongoose](http://mongoosejs.com/)
+- [jsonwebtoken]
