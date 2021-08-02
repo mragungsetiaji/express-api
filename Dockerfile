@@ -8,9 +8,9 @@ COPY package.json yarn.lock ./
 
 USER node
 
-RUN yarn install
+RUN yarn install --production=true
 
 COPY --chown=node:node . .
 
-EXPOSE 5000
+EXPOSE 3000
 CMD ["yarn", "start"]
